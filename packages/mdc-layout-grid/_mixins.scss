@@ -125,7 +125,7 @@
   align-items: stretch;
   margin: math.div(-$gutter, 2);
   // stylelint-disable-next-line declaration-block-no-duplicate-properties
-  margin: calc(var(--mdc-layout-grid-gutter-#{$size}, #{$gutter}) / 2 * -1);
+  margin: calc(-1 * var(--mdc-layout-grid-gutter-#{$size}, #{$gutter}) / 2);
 
   @supports (display: grid) {
     display: grid;
