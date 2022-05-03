@@ -2,6 +2,7 @@
   "private": true,
   "description": "Material Components Web",
   "license": "MIT",
+  "version": "14.0.0",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "link": "lerna link",
